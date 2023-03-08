@@ -1,80 +1,81 @@
 # LaskaKit LED Czech Map
+LEDs sequence and districts
 | ID | Okres |
 |:--:|:------|
-| 1	| Cheb |
-| 2	| Sokolov |
-| 3	| Karlovy Vary |
-| 4	| Chomutov |
-| 5	| Louny |
-| 6	| Most |
+| 25	| Cheb |
+| 20	| Sokolov |
+| 17	| Karlovy Vary |
+| 11	| Chomutov |
+| 16	| Louny |
+| 10	| Most |
 | 7	| Teplice |
-| 8	| Litoměřice |
-| 9	| Ústí nad Labem |
-| 10 | Děčín |
-| 11 | Česká Lípa |
-| 12 | Liberec |
-| 13 | Jablonec nad Nisou |
-| 14 | Semily |
-| 15 | Jičín |
-| 16 | Trutnov |
-| 17 | Náchod |
-| 18 | Hradec Králové |
-| 19 | Rychnov nad Kněžnou |
-| 20 | Ústí nad Orlicí |
-| 21 | Pardubice |
-| 22 | Chrudim |
-| 23 | Svitavy |
-| 24 | Šumperk |
-| 25 | Jeseník |
+| 9	| Litoměřice |
+| 4	| Ústí nad Labem |
+| 1 | Děčín |
+| 5 | Česká Lípa |
+| 2 | Liberec |
+| 3 | Jablonec nad Nisou |
+| 6 | Semily |
+| 12 | Jičín |
+| 8 | Trutnov |
+| 12 | Náchod |
+| 19 | Hradec Králové |
+| 22 | Rychnov nad Kněžnou |
+| 30 | Ústí nad Orlicí |
+| 28 | Pardubice |
+| 35 | Chrudim |
+| 39 | Svitavy |
+| 32 | Šumperk |
+| 18 | Jeseník |
 | 26 | Bruntál |
-| 27 | Olomouc |
-| 28 | Opava |
-| 29 | Ostrava-město |
-| 30 | Karviná |
-| 31 | Frýdek-Místek |
-| 32 | Nový Jičín |
-| 33 | Vsetín |
-| 34 | Přerov |
-| 35 | Zlín |
-| 36 | Kroměříž |
-| 37 | Uherské Hradiště |
-| 38 | Hodonín |
-| 39 | Vyškov |
-| 40 | Prostějov |
-| 41 | Blansko |
-| 42 | Brno-město |
-| 43 | Brno-venkov |
-| 44 | Břeclav |
-| 45 | Znojmo |
-| 46 | Třebíč |
-| 47 | Žďár nad Sázavou |
-| 48 | Jihlava |
-| 49 | Havlíčkův Brod |
-| 50 | Pelhřimov |
-| 51 | Jindřichův Hradec |
-| 52 | Tábor |
-| 53 | České Budějovice |
-| 54 | Český Krumlov |
-| 55 | Prachatice |
-| 56 | Strakonice |
-| 57 | Písek |
-| 58 | Klatovy |
-| 59 | Domažlice |
-| 60 | Tachov |
-| 61 | Plzeň-sever |
-| 62 | Plzeň-město |
-| 63 | Plzeň-jih |
-| 64 | Rokycany |
-| 65 | Rakovník |
-| 66 | Kladno |
-| 67 | Mělník |
-| 68 | Mladá Boleslav |
-| 69 | Nymburk |
-| 70 | Kolín |
-| 71 | Kutná Hora |
-| 72 | Benešov |
-| 73 | Příbram |
-| 74 | Beroun |
-| 75 | Praha-západ |
-| 76 | Praha-východ |
-| 77 | Praha |
+| 46 | Olomouc |
+| 31 | Opava |
+| 37 | Ostrava-město |
+| 36 | Karviná |
+| 43 | Frýdek-Místek |
+| 45 | Nový Jičín |
+| 57 | Vsetín |
+| 49 | Přerov |
+| 62 | Zlín |
+| 58 | Kroměříž |
+| 66 | Uherské Hradiště |
+| 69 | Hodonín |
+| 60 | Vyškov |
+| 50 | Prostějov |
+| 56 | Blansko |
+| 64 | Brno-město |
+| xx | Brno-venkov |
+| 72 | Břeclav |
+| 70 | Znojmo |
+| 63 | Třebíč |
+| 48 | Žďár nad Sázavou |
+| 54 | Jihlava |
+| 47 | Havlíčkův Brod |
+| 52 | Pelhřimov |
+| 65 | Jindřichův Hradec |
+| 53 | Tábor |
+| 68 | České Budějovice |
+| 71 | Český Krumlov |
+| 67 | Prachatice |
+| 61 | Strakonice |
+| 59 | Písek |
+| 55 | Klatovy |
+| 51 | Domažlice |
+| 38 | Tachov |
+| xx | Plzeň-sever |
+| 41 | Plzeň-město |
+| xx | Plzeň-jih |
+| 42 | Rokycany |
+| 24 | Rakovník |
+| 23 | Kladno |
+| 15 | Mělník |
+| 14 | Mladá Boleslav |
+| 21 | Nymburk |
+| 29 | Kolín |
+| 34 | Kutná Hora |
+| 40 | Benešov |
+| 44 | Příbram |
+| 33 | Beroun |
+| xx | Praha-západ |
+| xx | Praha-východ |
+| 27 | Praha |
