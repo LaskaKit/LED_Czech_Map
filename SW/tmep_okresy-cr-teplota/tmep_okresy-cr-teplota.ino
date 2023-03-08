@@ -8,7 +8,7 @@
  * Inspired by "Your Mothers Map" (Mapa Tvoji Mamy) : https://github.com/tomasbrincil/pcb_mapa_cr_1
  */
 
-#include "config_my.h"            // change to config.h and fill the file.
+#include "config_my.h"            // - >>>>> change to config.h and fill the file.
 
 #include <WiFi.h>
 #include <HTTPClient.h>
