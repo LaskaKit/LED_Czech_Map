@@ -14,7 +14,7 @@
 #include <HTTPClient.h>
 #include <ArduinoJson.h>          //https://github.com/bblanchon/ArduinoJson v6+
 #include "Freenove_WS2812_Lib_for_ESP32.h"
-#define LEDS_COUNT  77
+#define LEDS_COUNT  72
 #define LEDS_PIN	25
 #define CHANNEL		0
 
