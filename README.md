@@ -18,7 +18,7 @@ LEDs sequence and districts
 | 6 | Semily |
 | 12 | Jičín |
 | 8 | Trutnov |
-| 12 | Náchod |
+| 13 | Náchod |
 | 19 | Hradec Králové |
 | 22 | Rychnov nad Kněžnou |
 | 30 | Ústí nad Orlicí |
