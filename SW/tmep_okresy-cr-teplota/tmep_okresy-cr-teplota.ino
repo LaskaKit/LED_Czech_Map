@@ -5,6 +5,7 @@
  * Email:podpora@laskakit.cz
  * Web:laskakit.cz
  * 
+ * How TO: https://wiki.tmep.cz/doku.php?id=ruzne:led_mapa_okresu_cr
  * Inspired by "Your Mothers Map" (Mapa Tvoji Mamy) : https://github.com/tomasbrincil/pcb_mapa_cr_1
  */
 
