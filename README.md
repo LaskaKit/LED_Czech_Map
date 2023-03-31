@@ -1,6 +1,6 @@
 # LaskaKit LED Czech Map
 LEDs sequence and districts
-| ID | TMEP ID | Okres |
+| LaskaKit ID | TMEP ID | Okres |
 |:--:|:-------:|:------|
 | 25	| 1	| Cheb |
 | 20	| 2	| Sokolov |
