@@ -1,4 +1,7 @@
 # LaskaKit LED Czech Map
+
+JSON: https://wiki.tmep.cz/doku.php?id=ruzne:led_mapa_okresu_cr
+
 LEDs sequence and districts
 | LaskaKit ID | TMEP ID | Okres |
 |:--:|:-------:|:------|
