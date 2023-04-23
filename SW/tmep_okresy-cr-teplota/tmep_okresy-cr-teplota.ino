@@ -1,6 +1,7 @@
 /* 
  * LaskaKit LED Czech Map, TMEP temperature.
- * Get Temperature from TMEP and show on the map
+ * Get Temperature from TMEP, find minimum and maximum of temperature,
+ * and show on the map. 
  * For settings see config.h
  * 
  * Email:podpora@laskakit.cz
@@ -8,9 +9,10 @@
  * 
  * How TO: https://wiki.tmep.cz/doku.php?id=ruzne:led_mapa_okresu_cr
  * Inspired by "Your Mothers Map" (Mapa Tvoji Mamy): https://github.com/tomasbrincil/pcb_mapa_cr_1
+ * Modification of color layout based on min and max temperature in Czechia from https://github.com/rpsh1919/LED-mapa/blob/main/LED-mspa.src
  */
 
-#include "config_my.h"            // - >>>>> change to config.h and fill the file.
+#include "config.h"            // - >>>>> change to config.h and fill the file.
 
 #include <WiFi.h>
 #include <HTTPClient.h>
@@ -80,6 +82,9 @@ void loop()
                 return;
             }
 
+            String tmp;
+            float maxTemp = -99;
+            float minTemp =  99;
             // Read all TMEP districts with their indexes
             for (JsonObject item : doc.as<JsonArray>()) {
                 int TMEPdistrictIndex = item["id"];
@@ -87,13 +92,21 @@ void loop()
                 TMEPdistrictIndex -= 1;
                 double h = item["h"];
                 TMEPDistrictTemperatures[TMEPdistrictIndex] = h;
+
+                // find the min and max temperature for adjusting of color layout
+                tmp = TMEPDistrictTemperatures[TMEPdistrictIndex];
+                if (tmp.toFloat() < minTemp) minTemp = tmp.toFloat();
+                if (tmp.toFloat() > maxTemp) maxTemp = tmp.toFloat();
             }
 
             // Now go through our LEDs and we will set their colors
-            for (int LED = 0; LED < LEDS_COUNT - 1; LED++) {
-                // Get color for correct district LED
-                color = map(TMEPDistrictTemperatures[TMEPDistrictPosition[LED]], -15, 40, 170, 0);
-                strip.setLedColorData(LED, strip.Wheel(color));
+            for (int LED = 0; LED <= LEDS_COUNT - 1; LED++) 
+            {
+              // Get color for correct district and recalculate based on the min and max of temperature in Czechia - variable color layout
+              //color = map(TMEPDistrictTemperatures[TMEPDistrictPosition[LED]], minTemp, maxTemp, 170, 0);
+              // Get color for correct district LED - fixed color layout (min -15; max 40 °C)
+              color = map(TMEPDistrictTemperatures[TMEPDistrictPosition[LED]], -15, 40, 170, 0);
+              strip.setLedColorData(LED, strip.Wheel(color));
             }
 
             strip.show();
