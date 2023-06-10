@@ -12,7 +12,7 @@
  * Modification of color layout based on min and max temperature in Czechia from https://github.com/rpsh1919/LED-mapa/blob/main/LED-mspa.src
  */
 
-#include "config.h"            // - >>>>> change to config.h and fill the file.
+#include "config_my.h"            // - >>>>> change to config.h and fill the file.
 
 #include <WiFi.h>
 #include <HTTPClient.h>
