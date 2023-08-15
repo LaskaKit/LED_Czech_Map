@@ -91,12 +91,12 @@ Deska na které je osazen Wi-Fi a Bluetooth modul ESP32 obsahuje navíc i [uŠup
 
 A jaké moduly to mohou být? Třeba čidlo [SCD41 pro měření CO2, teploty a vlhkosti vzduchu](https://www.laskakit.cz/laskakit-scd41-senzor-co2--teploty-a-vlhkosti-vzduchu/), čidla SHT41 [teploty a vlhkosti vzduchu](https://www.laskakit.cz/laskakit-sht40-senzor-teploty-a-vlhkosti-vzduchu/) a [čidla tlaku, teploty a vlhkosti vzduchu BME280](https://www.laskakit.cz/arduino-senzor-tlaku--teploty-a-vlhkosti-bme280/), [RTC Hodiny reálného času](https://www.laskakit.cz/laskakit-ds3231-orig--rtc-hodiny-realneho-casu/) s DS3231 nebo [OLED displej o velikosti 1.3" a rozlišení 128x64px](https://www.laskakit.cz/laskakit-oled-displej-128x64-1-3--i2c/?variantId=11903).
 
-Deska LaskaKit LED Mapa ČR má osazen i vlastní programátor a není tak třeba mačkat tlačítka proto, aby se ESP32 naprogramovalo. Prostě jen připojíš USB-C kabel s počítačem a klikneš na "Nahrát".
-GPIO pin, který ovládá adresovatelné RGB LED je číslo 25 na ESP32. Adresovatelné RGB LED jsou zapojeny za sebou a díky už napsaným knihovnám je ovládání LEDek naprostá hračka. 
+Deska LaskaKit LED Mapa ČR má osazen i vlastní programátor a není tak třeba mačkat tlačítka proto, aby se ESP32 naprogramovalo. Prostě jen připojíš USB-C kabel s počítačem a klikneš na "Nahrát".</br>
+GPIO pin, který ovládá adresovatelné RGB LED je číslo 25 na ESP32. Adresovatelné RGB LED jsou zapojeny za sebou a díky už napsaným knihovnám je ovládání LEDek naprostá hračka. </br>
 
 Mapa má i čtyři upevňovací otvory a navíc i rozšiřující konektor pro připojení třeba OLED displeje nebo čehokoliv jiného.
 
-Díky popularitě této mapy vznikly nejrůznější zajímavé projekty - zobrazení teplot ze služby [TMEP.cz](https://tmep.cz/) ([vzorový kód najdeš tady](https://github.com/LaskaKit/LED_Czech_Map/tree/main/SW/tmep_okresy-cr-teplota)) nebo zobrazení srážek na základě dat z radaru.
+Díky popularitě této mapy vznikly nejrůznější zajímavé projekty - zobrazení teplot ze služby [TMEP.cz](https://tmep.cz/) ([vzorový kód najdeš tady](https://github.com/LaskaKit/LED_Czech_Map/tree/main/SW/tmep_okresy-cr-teplota)) nebo zobrazení srážek na základě dat z radaru.</br>
 Kód je opět [na našem github](https://github.com/LaskaKit/LED_Czech_Map/tree/main/SW/CHMI_srazky). Kód má navíc možnosti nastavení zobrazení. 
 Jednoduché zobrazení (vybereme pouze dominantní barva) nebo možnost přidání animace, zobrazení srážek před 30 minutami, 20, 10 a aktuální radarový obraz.
 
