@@ -25,6 +25,11 @@
 
 // URL with JSON data
 const char* json_url = "http://cdn.tmep.cz/app/export/okresy-cr-teplota.json";
+// other possible data
+// http://cdn.tmep.cz/app/export/okresy-cr-teplota.json
+// http://cdn.tmep.cz/app/export/okresy-cr-vlhkost.json
+// http://cdn.tmep.cz/app/export/okresy-cr-tlak.json
+// http://cdn.tmep.cz/app/export/okresy-cr-prasnost.json
 
 unsigned long lastTime = 0;
 unsigned long timerDelay = 60000;
