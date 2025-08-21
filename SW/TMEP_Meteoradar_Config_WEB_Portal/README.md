@@ -1,3 +1,5 @@
+![Zobrazeni Meteoradaru](https://github.com/LaskaKit/LED_Czech_Map/blob/main/SW/TMEP_Meteoradar_Config_WEB_Portal/srazky_meteoradar.jpeg)
+
 Tento vzorový kód představuje slouží k vizualizaci environmentálních dat pomocí interaktivní LED mapy České republiky.
 LaskaKit Interaktivní Mapa ČR nabízí uživatelům pohodlnou webovou konfiguraci přes WiFi. 
 
@@ -39,3 +41,14 @@ Kód umožňuje jednoduchou integraci s volně dostupnými daty a škálovatelno
 Celkově jde o sofistikované zařízení postavené na platformě ESP32, které vkusně kombinuje vizuální LED mapu s robustní webovou konfigurací a četnými užitečnými funkcemi. Díky tomu nabízí uživatelům snadné a flexibilní prostředky pro monitorování a zobrazení environmentálních dat, a to jak pro osobní použití, tak i pro širší komunitní projekty.
 
 ## Interaktivní mapu můžete objednat na [https://www.laskakit.cz/laskakit-interaktivni-mapa-cr-ws2812b/](https://www.laskakit.cz/laskakit-interaktivni-mapa-cr-ws2812b/)
+
+Webstránka a první zapnutí (nebo nedostupnost klientské Wi-Fi sítě. SSID Laskakit-MapaCR, IP adresa 192.168.4.1
+![Webstránka - první nastavení](https://github.com/LaskaKit/LED_Czech_Map/blob/main/SW/TMEP_Meteoradar_Config_WEB_Portal/web_access_point.jpeg)
+
+![Webstránka teplota](https://github.com/LaskaKit/LED_Czech_Map/blob/main/SW/TMEP_Meteoradar_Config_WEB_Portal/web_teplota.jpeg)
+
+![Webstránka tlak](https://github.com/LaskaKit/LED_Czech_Map/blob/main/SW/TMEP_Meteoradar_Config_WEB_Portal/web_tlak.jpeg)
+
+![Webstránka prasnost](https://github.com/LaskaKit/LED_Czech_Map/blob/main/SW/TMEP_Meteoradar_Config_WEB_Portal/web_prasnost.jpeg)
+
+![Webstránka meteoradar](https://github.com/LaskaKit/LED_Czech_Map/blob/main/SW/TMEP_Meteoradar_Config_WEB_Portal/web_meteoradar.jpeg)
