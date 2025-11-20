@@ -45,6 +45,11 @@ Kód provádí základní kontrolu zadaných otázek - zda oddělovač je správ
 
 <img src="https://github.com/LaskaKit/LED_Czech_Map/blob/main/SW/Hra_Zachran_Mesto/laskakit_mapa_chyba1.png" width="40%"> <img src="https://github.com/LaskaKit/LED_Czech_Map/blob/main/SW/Hra_Zachran_Mesto/laskakit_mapa_chyba2.png" width="40%">
 
+### Kód - naprogramování bez programování
+Abys nemusel stahovat Arduino IDE, knihovny a kompilovat kód, můžeš jednoduše nahrát už hotový kód do desky skrze naši webovou stránku.
+Připoj USB kabel do Laskakit RGB mapy a k počítači, přejdi na tuto stránku https://www.laskakit.cz/navody-ke-zbozi/ a klikni na "Instalovat" a drž se pokynů.
+Po naprogramování pokračuj k záložce "Návod" - tam mapu připojíš k Wi-Fi a nahraješ otázky.
+
 ### Potřebné knihovny
 https://github.com/adafruit/Adafruit_NeoPixel
 
