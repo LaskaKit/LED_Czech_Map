@@ -101,6 +101,9 @@ Díky popularitě této mapy vznikly nejrůznější zajímavé projekty - zobra
 Kód je opět [na našem github](https://github.com/LaskaKit/LED_Czech_Map/tree/main/SW/CHMI_srazky). Kód má navíc možnosti nastavení zobrazení. 
 Jednoduché zobrazení (vybereme pouze dominantní barva) nebo možnost přidání animace, zobrazení srážek před 30 minutami, 20, 10 a aktuální radarový obraz.
 
+A to rozhodně není všechno! S touto mapou si můžeš zahrát hru "[Zachraň město! (github)](https://github.com/LaskaKit/LED_Czech_Map/tree/main/SW/Hra_Zachran_Mesto)". Správnou odpovědí uhasíš hořící město, tou špatnou začne hořet jiné.
+Jednoduchou instalaci programu dokážeš díky naší [webové instalační stránce](https://www.laskakit.cz/navody-ke-zbozi/).
+
 Máš jiný nápad? Sem s ním!
 
 Mapu můžeš zakoupit na https://www.laskakit.cz/laskakit-interaktivni-mapa-cr-ws2812b/
